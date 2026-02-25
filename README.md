@@ -14,3 +14,15 @@ Speed Tester is a Python-based CLI application that checks your internet connect
 
 It runs directly from the terminal and provides quick, readable results.
 
+
+Features
+
+Measures download speed in Mbps
+
+Measures upload speed in Mbps
+
+Displays network latency (ping)
+
+Simple terminal-based output
+
+Fast execution with minimal setup

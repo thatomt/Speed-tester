@@ -19,3 +19,11 @@ def check_internet_speed():
         "upload": round(upload, 2),
         "ping": round(ping, 2)
     }
+
+speed = check_internet_speed()
+
+print(f"Download: {speed['download']} Mbps")
+print(f"Upload: {speed['upload']} Mbps")
+print(f"Ping: {speed['ping']} ms" )
+print()
+print("Test Completed!")

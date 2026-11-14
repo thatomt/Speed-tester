@@ -2,8 +2,8 @@ import speedtest
 
 
 def check_internet_speed():
-    """ The function measures download speed, upload speed 
-    and ping (latency), then prints the results """
+    #The function measures download speed, upload speed 
+    #and ping (latency), then prints the results
     
     speed_test = speedtest.Speedtest()
     
@@ -16,7 +16,6 @@ def check_internet_speed():
 
     
     ping = speed_test.results.ping
-    
     return {
         "download": round(download, 2),
         "upload": round(upload, 2),

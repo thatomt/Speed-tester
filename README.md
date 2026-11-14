@@ -2,7 +2,7 @@
 
 A simple and efficient command-line tool to measure your internet connection speed using Python.
 
-📌 Overview
+ Overview
 
 Speed Tester is a Python-based CLI application that checks your internet connection performance by measuring:
 
